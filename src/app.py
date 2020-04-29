@@ -7,5 +7,4 @@ def home():
     return 'Crispy Eureka'
 
 if __name__ == "__main__":
-
     app.run()
