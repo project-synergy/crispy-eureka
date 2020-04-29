@@ -3,31 +3,37 @@ Web Hosting Service
 
 # Project Setup
 
-1) Navigate to C:\Users\Admin\Documents\GitHub\crispy-eureka>
+1) Navigate to crispy-eureka
+
+```
+cd crispy-eureka
+```
+
+2) Install virtualenv
 
 ```
 py -m pip install virtualenv
 ```
 
-2) setup virtualenv 
+3) setup virtualenv 
 
 ```
 py -m virtualenv .
 ```
 
-3) Activate virtualenv
+4) Activate virtualenv
 
 ```
 Scripts\activate.bat
 ```
 
-4) Install requirements 
+5) Install requirements 
 
 ```
 py -m pip install -r requirements.txt
 ```
 
-5) Run app
+6) Run app
 
 ```
 cd src
